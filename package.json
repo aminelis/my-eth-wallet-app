@@ -1,0 +1,25 @@
+{
+  "name": "my-eth-wallet-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ethersproject/providers": "^5.7.2",
+    "@metamask/providers": "^14.0.0",
+    "ethers": "^6.8.1",
+    "next": "14.0.2",
+    "react": "^18",
+    "react-dom": "^18",
+    "wagmi": "^1.4.6",
+    "web3": "^4.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.0.2"
+  }
+}
